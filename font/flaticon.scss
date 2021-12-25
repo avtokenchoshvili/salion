@@ -1,0 +1,41 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?6fd672f8e432541fe960f79813d30442") format("truetype"),
+url("./flaticon.woff?6fd672f8e432541fe960f79813d30442") format("woff"),
+url("./flaticon.woff2?6fd672f8e432541fe960f79813d30442") format("woff2"),
+url("./flaticon.eot?6fd672f8e432541fe960f79813d30442#iefix") format("embedded-opentype"),
+url("./flaticon.svg?6fd672f8e432541fe960f79813d30442#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "hair-gel": "\f101",
+    "scissors": "\f102",
+    "razor": "\f103",
+    "cut": "\f104",
+);
+
+.flaticon-hair-gel:before {
+    content: map-get($flaticon-map, "hair-gel");
+}
+.flaticon-scissors:before {
+    content: map-get($flaticon-map, "scissors");
+}
+.flaticon-razor:before {
+    content: map-get($flaticon-map, "razor");
+}
+.flaticon-cut:before {
+    content: map-get($flaticon-map, "cut");
+}
