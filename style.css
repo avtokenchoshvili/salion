@@ -1029,6 +1029,7 @@ body {
     justify-content: center;
     overflow: hidden;
     padding: 120px 0 120px 0;
+    background-color: white;
   }
   
   .midlesection-right {
