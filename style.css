@@ -1156,13 +1156,14 @@ body {
   
   .elemetor-right {
     width: 100%;
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     float: right;
     align-items: flex-end;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 123px 325px 90px 75px;
+    right: -70px;
   }
   
   .servises {

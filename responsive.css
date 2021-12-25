@@ -1,0 +1,56 @@
+/* @media only screen and (max-width: 1000px) {
+   .elemetor-right ul{
+       height: 200px;
+       width: 200px;
+       text-align: center;
+       align-items: center;
+       width: 100%;
+       overflow: hidden;
+   }
+
+
+   .elemetor-right h2{
+  display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.heading-content p{
+    display: flex;
+      text-align: center;
+      align-items: center;
+    
+  
+      justify-content: center;
+  }
+
+  .From-Our-Blog {
+    display: flex;
+      text-align: center;
+      align-items: center;
+      
+      width: 300px;
+  }
+
+
+  } */
+
+
+  @media only screen and (max-width: 1790px) {
+
+
+    .elemetor-right ul{
+       width: 500px;
+       justify-content: center;
+       display: flex;
+       flex-direction: column;
+
+        
+    }
+
+.heading-content{
+ 
+}
+
+  }
